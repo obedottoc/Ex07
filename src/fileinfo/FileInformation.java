@@ -1,3 +1,10 @@
+/****
+ * Program for fileinfo
+
+
+ * @author RAJAMANICKAM A
+ *  rajapandidevi1997@gmail.com
+ */
 package fileinfo;
 
 import java.io.File;
