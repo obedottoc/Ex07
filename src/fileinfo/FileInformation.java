@@ -1,4 +1,5 @@
-/*created byngurusai
+
+
 package fileinfo;
 
 import java.io.File;
