@@ -1,4 +1,6 @@
-package fileinfo;
+
+/*
+ * developed by sakthi 212217105051*/package fileinfo;
 
 import java.io.File;
 import java.util.Scanner;
@@ -50,7 +52,7 @@ public class FileInformation {
 		System.out.println("The file does not exist.");
 	}
 		double bytes = f.length();
-		System.out.println("size of the file is"+bytes);
+		System.out.println("size of the file in bytes"+bytes);
 	}
 	public static void main(String[] args) {
 		FileInformation fi;
