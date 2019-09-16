@@ -1,6 +1,5 @@
 
-/*
- * developed by sakthi 212217105051*/package fileinfo;
+package fileinfo;
 
 import java.io.File;
 import java.util.Scanner;
