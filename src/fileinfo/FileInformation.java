@@ -1,8 +1,8 @@
-/*created by akhshy ganesh
- * gmail id: akhshyganeshb@gmail.com
- * program for reading a file name from the user, displays information about whether
-the file exists, whether the file is readable, or writable, the type of file and the length of the file in
-bytes.
+/*saveetha engineering college
+ * developed by
+ * suriya kumar
+ * 212217105057
+ * 
  */
 package fileinfo;
 
@@ -38,10 +38,16 @@ public class FileInformation {
 			}
 				System.out.println("The length is"+f.length());
 		}else
-		{
+		
 			System.out.println("The file does not exist.");
-		}
-	}
+			if(f.canExecute()==true) {
+				System.out.println("the file is excutable");
+						}else {
+							System.out.println("thefile is not excutable");
+						}
+			}
+		
+	
 
 	public static void main(String[] args) {
 		FileInformation fi;
