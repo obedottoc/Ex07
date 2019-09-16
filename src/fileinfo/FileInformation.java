@@ -1,5 +1,9 @@
-package fileinfo;
-
+/*program for open the files 
+ * author@ N.pavithra
+ * npavithra1405@gmail.com
+ * 
+ */
+ package fileinfo;
 import java.io.File;
 import java.util.Scanner;
 
