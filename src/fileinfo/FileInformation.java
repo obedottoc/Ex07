@@ -38,10 +38,10 @@ public class FileInformation {
 
 		if(f.canExecute()==true)
 		{
-			System.out.println("The file type is executed.");
+			System.out.println("the file is executable.");
 		}else
 		{
-			System.out.println("The file type is not executed.");
+			System.out.println("The file type is not executable.");
 		}
 	
 	}
@@ -49,6 +49,8 @@ public class FileInformation {
 	{
 		System.out.println("The file does not exist.");
 	}
+		double bytes = f.length();
+		System.out.println("size of the file is"+bytes);
 	}
 	public static void main(String[] args) {
 		FileInformation fi;
