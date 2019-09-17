@@ -1,3 +1,8 @@
+/****
+ * Program for F3ileinfo
+ * @author Atchaya003
+ *  abc997@gmail1.com
+ */
 package Fileinfo;
 
 import java.io.File;
@@ -10,7 +15,6 @@ public class FileInformation {
 		Scanner sc=new Scanner(System.in);
 		String filename;
 		File f;
-		
 		System.out.println("Enter the name of a file with full path:");
 		filename=sc.next();
 		f=new File(filename);
@@ -18,41 +22,45 @@ public class FileInformation {
 		if(f.exists()==true)
 		{
 			System.out.println("The file exists.");
+
+
 			if(f.canRead()==true)
 			{
-				System.out.println("Readable");
+				System.out.println("The file can be read.");
+			}else
+			{
+				System.out.println("The file cannot br read.");
+
 				if(f.canWrite()==true)
 				{
-					System.out.println("Writeable");
-				}
-				else
+					System.out.println("The file can be written.");
+				}else
 				{
-					System.out.println("not writeable");
+					System.out.println("The file cannot br written.");
+
+					if(f.canExecute()==true)
+					{
+						System.out.println("The file type is executed.");
+					}else
+					{
+						System.out.println("The file type is not excuted.");
+					}
 				}
+				System.out.println("Length:"+f.length());
 			}
-			else
-			{
-				System.out.println("not readable");
-			}
-			if(f.canExecute()==true)
-			{
-				System.out.println("executable type file");
-			}
-			else
-			{
-				System.out.println("non-executable");
-			}
-			System.out.println("length:"+f.length());
 		}
+
 		else
 		{
-			System.out.println("notes is");
+			System.out.println("the file does not exist.");
 		}
 	}
-	public static void main(String[]args) {
-		FileInformation f1;
-		f1=new FileInformation();
-		f1.CheckFile();
+	public static void main(String[] args) {
+		FileInformation fi;
+
+		fi=new FileInformation();
+		fi.CheckFile();
 
 	}
-}
+
+}	
