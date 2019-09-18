@@ -1,3 +1,7 @@
+/**
+ * To create file information application
+ * harsha vardhan reddy
+ */
 package fileinfo;
 import java.io.File;
 import java.util.Scanner;
