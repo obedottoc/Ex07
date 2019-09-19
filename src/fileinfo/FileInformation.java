@@ -47,6 +47,7 @@ public class FileInformation
 							
 						}
 						return fileType;
+						
 					}
 					
 			}
