@@ -1,9 +1,11 @@
 /***
  * To create a program whether the  file is exist or not 
  *                           the file is readable or writable
- *@author vijaykumar
+ *@author mahesh
+ *
  */
 package fileinfo;
+
 import java.io.File;
 import java.util.Scanner;
 
