@@ -7,7 +7,7 @@ public class FileInformation {
 	
 	public void CheckFile()
 	{
-		Scanner sc=new Scanner(System.in);
+		 Scanner sc=new Scanner(System.in);
 		String filename;
 		File f;
 		
