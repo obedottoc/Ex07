@@ -15,7 +15,7 @@ public class FileInformation {
 		filename=sc.next();
 		f=new File(filename);
 		
-		if(f.exists()==true)
+		 if(f.exists()==true)
 		{
 			System.out.println("The file exists.");
 			if(f.canRead()==true)
