@@ -38,7 +38,9 @@ public void checkfile(){
 		}
 		System.out.println("The file does not exist");
 	}
+}
 	public static void main(String[]args)
+	{
 		Fileinformation fi;
 	fi=new Fileinformation();
 	fi.checkfile();
