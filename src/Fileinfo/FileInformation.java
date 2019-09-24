@@ -1,3 +1,8 @@
+//*created by roopesh
+//*1roopesh3@gmail.com
+//*this program is written to read a file name from the user.
+
+
 package Fileinfo;
 
 import java.io.File;
