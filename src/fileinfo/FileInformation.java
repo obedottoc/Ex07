@@ -1,3 +1,7 @@
+/*created by kaarthikeyan
+ * email:gk81299@gmail.com
+ * 
+ */
 package fileinfo;
 
 import java.io.File;
