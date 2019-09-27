@@ -1,5 +1,7 @@
-package fileinfo;
-
+/**created by p.sairam  eee-b
+ *
+ */
+ package fileinfo;
 import java.io.File;
 import java.util.Scanner;
 
