@@ -11,7 +11,7 @@ public class FileInformation {
 		String filename;
 		File f;
 		
-		System.out.println("Enter the name of a file with full path:");
+		 System.out.println("Enter the name of a file with full path:");
 		filename=sc.next();
 		f=new File(filename);
 		
