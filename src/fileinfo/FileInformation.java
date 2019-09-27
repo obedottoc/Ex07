@@ -1,4 +1,7 @@
-
+/***
+ * Devloped by Mari Bhagavathi.T
+ * mari36mars@gmail.com
+ */
 package fileinfo;
 
 import java.io.File;
