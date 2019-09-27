@@ -1,3 +1,6 @@
+/***created by M.uday kanth ,eee-b,212217105037
+*
+*/
 package fileinfo;
 import java.io.File;
 import java.util.Scanner;
